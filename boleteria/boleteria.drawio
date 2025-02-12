@@ -1,55 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxGraphModel>
-  <root>
-    <mxCell id="0" />
-    <mxCell id="1" parent="0" />
+<mxfile>
+  <diagram name="Page-1" id="your-diagram-id">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
 
-    <!-- Users Table -->
-    <mxCell id="users" value="Users" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="50" y="50" width="200" height="220" as="geometry" />
-    </mxCell>
-    <mxCell id="users_fields" value="id (PK)\nfirst_name\nlast_name\nemail\nphone\nuser_type\ndocument_type\ndocument_number\npassword_hash\nregistration_date" vertex="1" parent="users">
-      <mxGeometry width="200" height="220" as="geometry" />
-    </mxCell>
+        <!-- Users Table -->
+        <mxCell id="Users" value="Users" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.user_id" value="user_id (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.user_type" value="user_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.name" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.document" value="document" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.email" value="email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.phone" value="phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="156" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Users.password" value="password" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Users">
+          <mxGeometry y="182" width="160" height="26" as="geometry" />
+        </mxCell>
 
-    <!-- Vehicles Table -->
-    <mxCell id="vehicles" value="Vehicles" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="300" y="50" width="200" height="220" as="geometry" />
-    </mxCell>
-    <mxCell id="vehicles_fields" value="id (PK)\nvehicle_type\nplate\ncapacity\nstatus\nlayout\nmodel\nbrand\nyear" vertex="1" parent="vehicles">
-      <mxGeometry width="200" height="220" as="geometry" />
-    </mxCell>
+        <!-- Vehicles Table -->
+        <mxCell id="Vehicles" value="Vehicles" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicles.vehicle_id" value="vehicle_id (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Vehicles">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicles.vehicle_type" value="vehicle_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Vehicles">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicles.status" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Vehicles">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicles.capacity" value="capacity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Vehicles">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicles.layout" value="layout" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Vehicles">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
 
-    <!-- Routes Table -->
-    <mxCell id="routes" value="Routes" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="550" y="50" width="200" height="220" as="geometry" />
-    </mxCell>
-    <mxCell id="routes_fields" value="id (PK)\norigin\ndestination\ndistance_km\nestimated_duration\nstops\ndeparture_time\narrival_time\ndeparture_terminal\narrival_terminal" vertex="1" parent="routes">
-      <mxGeometry width="200" height="220" as="geometry" />
-    </mxCell>
+        <!-- Routes Table -->
+        <mxCell id="Routes" value="Routes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Routes.route_id" value="route_id (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Routes">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Routes.origin" value="origin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Routes">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Routes.destination" value="destination" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Routes">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Routes.distance" value="distance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Routes">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Routes.departure_time" value="departure_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Routes">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
 
-    <!-- Seats Table -->
-    <mxCell id="seats" value="Seats" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="800" y="50" width="200" height="220" as="geometry" />
-    </mxCell>
-    <mxCell id="seats_fields" value="id (PK)\nvehicle_id (FK)\nseat_number\nstatus" vertex="1" parent="seats">
-      <mxGeometry width="200" height="220" as="geometry" />
-    </mxCell>
-
-    <!-- Tickets Table -->
-    <mxCell id="tickets" value="Tickets" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="1050" y="50" width="220" height="240" as="geometry" />
-    </mxCell>
-    <mxCell id="tickets_fields" value="id (PK)\nuser_id (FK)\nvehicle_id (FK)\nroute_id (FK)\nseat_id (FK)\nprice\npurchase_date\nstatus\nqr_code\npayment_method" vertex="1" parent="tickets">
-      <mxGeometry width="220" height="240" as="geometry" />
-    </mxCell>
-
-    <!-- Payments Table -->
-    <mxCell id="payments" value="Payments" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="1300" y="50" width="200" height="220" as="geometry" />
-    </mxCell>
-    <mxCell id="payments_fields" value="id (PK)\nticket_id (FK)\namount\npayment_date\nmethod\nstatus\ntransaction_id" vertex="1" parent="payments">
-      <mxGeometry width="200" height="220" as="geometry" />
-    </mxCell>
-  </root>
-</mxGraphModel>
+        <!-- Relationships -->
+        <mxCell id="Users-Tickets" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="Users" target="Tickets">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
