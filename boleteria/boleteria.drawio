@@ -6,50 +6,50 @@
 
     <!-- Users Table -->
     <mxCell id="users" value="Users" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry width="180" height="200" as="geometry" />
+      <mxGeometry x="50" y="50" width="200" height="220" as="geometry" />
     </mxCell>
     <mxCell id="users_fields" value="id (PK)\nfirst_name\nlast_name\nemail\nphone\nuser_type\ndocument_type\ndocument_number\npassword_hash\nregistration_date" vertex="1" parent="users">
-      <mxGeometry width="180" height="200" as="geometry" />
+      <mxGeometry width="200" height="220" as="geometry" />
     </mxCell>
 
     <!-- Vehicles Table -->
     <mxCell id="vehicles" value="Vehicles" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="250" width="180" height="200" as="geometry" />
+      <mxGeometry x="300" y="50" width="200" height="220" as="geometry" />
     </mxCell>
     <mxCell id="vehicles_fields" value="id (PK)\nvehicle_type\nplate\ncapacity\nstatus\nlayout\nmodel\nbrand\nyear" vertex="1" parent="vehicles">
-      <mxGeometry width="180" height="200" as="geometry" />
+      <mxGeometry width="200" height="220" as="geometry" />
     </mxCell>
 
     <!-- Routes Table -->
     <mxCell id="routes" value="Routes" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="500" width="180" height="200" as="geometry" />
+      <mxGeometry x="550" y="50" width="200" height="220" as="geometry" />
     </mxCell>
     <mxCell id="routes_fields" value="id (PK)\norigin\ndestination\ndistance_km\nestimated_duration\nstops\ndeparture_time\narrival_time\ndeparture_terminal\narrival_terminal" vertex="1" parent="routes">
-      <mxGeometry width="180" height="200" as="geometry" />
+      <mxGeometry width="200" height="220" as="geometry" />
     </mxCell>
 
     <!-- Seats Table -->
     <mxCell id="seats" value="Seats" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="750" width="180" height="200" as="geometry" />
+      <mxGeometry x="800" y="50" width="200" height="220" as="geometry" />
     </mxCell>
     <mxCell id="seats_fields" value="id (PK)\nvehicle_id (FK)\nseat_number\nstatus" vertex="1" parent="seats">
-      <mxGeometry width="180" height="200" as="geometry" />
+      <mxGeometry width="200" height="220" as="geometry" />
     </mxCell>
 
     <!-- Tickets Table -->
     <mxCell id="tickets" value="Tickets" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="1000" width="200" height="220" as="geometry" />
+      <mxGeometry x="1050" y="50" width="220" height="240" as="geometry" />
     </mxCell>
     <mxCell id="tickets_fields" value="id (PK)\nuser_id (FK)\nvehicle_id (FK)\nroute_id (FK)\nseat_id (FK)\nprice\npurchase_date\nstatus\nqr_code\npayment_method" vertex="1" parent="tickets">
-      <mxGeometry width="200" height="220" as="geometry" />
+      <mxGeometry width="220" height="240" as="geometry" />
     </mxCell>
 
     <!-- Payments Table -->
     <mxCell id="payments" value="Payments" style="shape=table;" vertex="1" parent="1">
-      <mxGeometry x="1250" width="180" height="200" as="geometry" />
+      <mxGeometry x="1300" y="50" width="200" height="220" as="geometry" />
     </mxCell>
     <mxCell id="payments_fields" value="id (PK)\nticket_id (FK)\namount\npayment_date\nmethod\nstatus\ntransaction_id" vertex="1" parent="payments">
-      <mxGeometry width="180" height="200" as="geometry" />
+      <mxGeometry width="200" height="220" as="geometry" />
     </mxCell>
   </root>
 </mxGraphModel>
